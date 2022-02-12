@@ -192,3 +192,13 @@ sup {
     width: 85%;
   }
 }
+@media (max-width: 600px) {
+  .main {
+    width: calc(100vw - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 50px;
+    padding-right: 10px;
+  }
+}
