@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pythagoras Solver</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h2><a href="index.html">Pythagoras Solver</a></h2>
+      </header>
+      <main class="main">
+        <div class="box1">
+          <h1 class="boxTitle">Calculate a:</h1>
+          <div class="imgFormula">
+            <img id="img" class="img" src="pythag.png" alt="" />
+            <h2 class="formula">
+              <span style="white-space: nowrap; font-size: larger">
+                a = &radic;<span style="text-decoration: overline"
+                  >&nbsp;c&#178; - b&#178;&nbsp;</span
+                >
+              </span>
+            </h2>
+          </div>
+
+          <div class="formContainer">
+            <div>
+              <label>Enter b: </label>
+              <input required type="number" id="bValueBox1" />
+            </div>
+            <div>
+              <label>Enter c: </label>
+              <input required type="number" id="cValueBox1" />
+            </div>
+            <div class="btnContainer">
+              <button type="submit" id="box1Btn">Solve</button>
+            </div>
+          </div>
+          <p id="answer1"></p>
+        </div>
+        <div class="box2">
+          <h1 class="boxTitle">Calculate b:</h1>
+          <div class="imgFormula">
+            <img id="img2" class="img" src="pythag.png" alt="" />
+            <h2 class="formula">
+              <span style="white-space: nowrap; font-size: larger">
+                b = &radic;<span style="text-decoration: overline"
+                  >&nbsp;c&#178; - a&#178;&nbsp;</span
+                >
+              </span>
+            </h2>
+          </div>
+
+          <div class="formContainer">
+            <div>
+              <label>Enter a: </label>
+              <input required type="number" id="aValueBox2" />
+            </div>
+            <div>
+              <label>Enter c: </label>
+              <input required type="number" id="cValueBox2" />
+            </div>
+            <div class="btnContainer">
+              <button type="submit" id="box2Btn">Solve</button>
+            </div>
+          </div>
+          <p id="answer2"></p>
+        </div>
+        <div class="box3">
+          <h1 class="boxTitle">Calculate c:</h1>
+          <div class="imgFormula">
+            <img class="img" id="img3" src="pythag.png" alt="" />
+            <h2 class="formula">
+              <span style="white-space: nowrap; font-size: larger">
+                c = &radic;<span style="text-decoration: overline"
+                  >&nbsp;a&#178; + b&#178;&nbsp;</span
+                >
+              </span>
+            </h2>
+          </div>
+          <div class="formContainer">
+            <div>
+              <label>Enter a: </label>
+              <input required type="number" id="aValueBox3" />
+            </div>
+            <div>
+              <label>Enter b: </label>
+              <input required type="number" id="bValueBox3" />
+            </div>
+            <div class="btnContainer">
+              <button type="submit" id="box3Btn">Solve</button>
+            </div>
+          </div>
+          <p id="answer3"></p>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
