@@ -250,7 +250,7 @@ sup {
 }
 @media (max-width: 590px) {
   .main {
-    width: 480px;
+    width: 440px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
