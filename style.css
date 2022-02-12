@@ -202,7 +202,7 @@ sup {
     padding-right: 10px;
   }
   input {
-    width: 70%;
+    width: 80%;
   }
   .box1 {
     padding-left: 30px;
@@ -219,26 +219,27 @@ sup {
 }
 @media (max-width: 600px) {
   .main {
-    width: calc(100vw - 70px);
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 30px 50px;
-    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
   }
   input {
-    width: 90%;
+    width: 100%;
   }
   .box1 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-right: -30px;
+    width: 100%;
+    padding-right: 40px;
   }
   .box2 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-right: -30px;
+    width: 100%;
+    padding-right: 40px;
   }
   .box3 {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-right: -30px;
+    width: 100%;
+    padding-right: 40px;
   }
 }
