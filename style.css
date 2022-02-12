@@ -217,3 +217,28 @@ sup {
     padding-right: 30px;
   }
 }
+@media (max-width: 600px) {
+  .main {
+    width: calc(100vw - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 50px;
+    padding-right: 10px;
+  }
+  input {
+    width: 90%;
+  }
+  .box1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .box2 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .box3 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
