@@ -192,14 +192,28 @@ sup {
     width: 85%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .main {
     width: calc(100vw - 70px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 30px 20px;
-    padding-right: 5px;
-  
+    margin: 30px 50px;
+    padding-right: 10px;
+  }
+  input {
+    width: 70%;
+  }
+  .box1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .box2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .box3 {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
