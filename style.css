@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 .container {
   width: 100vw;
   height: 100vh;
@@ -222,7 +225,7 @@ sup {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 10px;
+    margin: 10px 20px;
   }
   input {
     width: 100%;
