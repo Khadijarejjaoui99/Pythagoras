@@ -228,18 +228,18 @@ sup {
     width: 100%;
   }
   .box1 {
-    margin-right: -30px;
+    margin-right: -60px;
+    margin-left: -30px;
     width: 100%;
-    padding-right: 40px;
   }
   .box2 {
-    margin-right: -30px;
+    margin-right: -60px;
+    margin-left: -30px;
     width: 100%;
-    padding-right: 40px;
   }
   .box3 {
-    margin-right: -30px;
+    margin-right: -60px;
+    margin-left: -30px;
     width: 100%;
-    padding-right: 40px;
   }
 }
